@@ -1,11 +1,13 @@
 package application;
 
+import boardlayer.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello word");
-
+		Position p = new Position(5, 10); 
+		System.out.println(p);
 	}
 
 }
